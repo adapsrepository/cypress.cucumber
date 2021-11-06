@@ -1,11 +1,7 @@
 name: Orange Hrm tests
 
 # on push for testing, will change to on schedule
-on: 
-  pull request:
-  push:
-    branches:
-      - master
+on: [push]
       
 jobs:
   cypress-run:
