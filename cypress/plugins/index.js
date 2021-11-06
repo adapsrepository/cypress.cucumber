@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+/// <reference types="@shelex/cypress-allure-plugin" />
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
 //
@@ -20,6 +21,17 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 }
 
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+// module.exports = (on, config) => {
+//   on('file:preprocessor', webpackPreprocessor);
+//   allureWriter(on, config);
+//   return config;
+// };
+module.exports = (on, config) => {
+  allureWriter(on, config);
+  return config;
+};
+
 const { GoogleSocialLogin } = require('cypress-social-logins').plugins
 
 module.exports = (on, config) => {
@@ -33,6 +45,7 @@ const cucumber = require('cypress-cucumber-preprocessor').default
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
 }
+
 
 // const wp = require('@cypress/webpack-preprocessor')
 

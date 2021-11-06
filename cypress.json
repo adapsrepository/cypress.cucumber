@@ -1,8 +1,8 @@
 {
     "env": {
-        "baseUrl": "https://opensource-demo.orangehrmlive.com/",
-        "username": "admin",
-        "password": "admin123"
+        "baseUrl": "https://www.saucedemo.com/",
+        "username": "standard_user",
+        "password": "secret_sauce"
     },
     "defaultCommandTimeout": 60000,
     "viewportHeight": 960,

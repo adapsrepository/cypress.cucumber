@@ -56,3 +56,9 @@ Overall report will be generated in github actions flow.
 - _**support**_: By default Cypress will automatically include the support file cypress/support/index.js. This file runs before every single spec file.
 - _**integration**_: integration folder contains the actual tests.
 
+Allure Reports: (https://www.npmjs.com/package/@shelex/cypress-allure-plugin)
+ - download allure plugin and command line
+    npm i --save @shelex/cypress-allure-plugin allure-commandline
+ - cypress/plugin/index.js 
+    
+
