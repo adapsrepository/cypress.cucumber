@@ -60,5 +60,10 @@ Allure Reports: (https://www.npmjs.com/package/@shelex/cypress-allure-plugin)
  - download allure plugin and command line
     npm i --save @shelex/cypress-allure-plugin allure-commandline
  - cypress/plugin/index.js 
+
+ Cucumber HTML Reports: (https://kailash-pathak.medium.com/generate-cucumber-html-report-in-cypress-3691d596ef19)
+   - run tests using test runner or command line to generate cypress/cucumber-json/**.json file
+   - node cucumber-html-report.js to generate cucumber report
+ 
     
 

@@ -41,3 +41,4 @@ Feature: Demo
                 And I click on Continue button
                 And I click on Finish button
                 And I validate text 'THANK YOU FOR YOUR ORDER'
+                # And I validate text 'sdjkaslkdj'

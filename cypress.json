@@ -4,7 +4,7 @@
         "username": "standard_user",
         "password": "secret_sauce"
     },
-    "defaultCommandTimeout": 60000,
+    "defaultCommandTimeout": 30000,
     "viewportHeight": 960,
     "viewportWidth": 1536,
     "pageLoadTimeout": 100000,

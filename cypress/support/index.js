@@ -18,6 +18,7 @@ import "cypress-react-selector";
 require('cypress-xpath');
 import "./commands";
 import '@shelex/cypress-allure-plugin';
+Cypress.moment = require('moment');
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
