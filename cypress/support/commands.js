@@ -67,3 +67,43 @@ Cypress.Commands.add('priceSplit', (price) => {
 
     return cy.wrap(total);
 })
+
+Cypress.Commands.add('enterText', (locator, value) => {
+    return cy.get(locator)
+        .type(value);
+})
+
+Cypress.Commands.add('buttonClick', (locator, value) => {
+    return cy.get(locator)
+        .click();
+})
+
+Cypress.Commands.add('autoSuggestDropdown', (locator, value) => {
+    return cy.get(locator)
+        .type(value)
+        .get('.ac_results ul li')
+        .eq(0)
+        .click({ force: true });
+})
+
+Cypress.Commands.add('selectDropdown', (locator, value) => {
+    return cy.get(locator)
+        .select(value).wait(3000);
+})
+
+//local storage commands
+let LOCAL_STORAGE_MEMORY = {};
+
+Cypress.Commands.add("saveLocalStorage", () => {
+  Object.keys(localStorage).forEach((key) => {
+    LOCAL_STORAGE_MEMORY[key] = localStorage[key];
+  });
+});
+
+Cypress.Commands.add("restoreLocalStorage", () => {
+  Object.keys(LOCAL_STORAGE_MEMORY).forEach((key) => {
+    localStorage.setItem(key, LOCAL_STORAGE_MEMORY[key]);
+  });
+});
+
+

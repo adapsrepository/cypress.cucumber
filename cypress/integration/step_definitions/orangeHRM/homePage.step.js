@@ -1,28 +1,12 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import { loginpage, homepage,assignleave } from '../../support/pageObjects/orangeHRMPages'
+import { homepage,assignleave } from '../../../support/pageObjects/orangeHRMPages'
 
-Given('I navigate to HRM page', () => {
-    return cy.visit('https://opensource-demo.orangehrmlive.com/');
-})
-
-And('I enter username {string} in HRM', (username) => {
-    return cy.get(loginpage.input.username).type(username).should('have.value', username);
-});
-
-And('I enter password {string} in HRM', (password) => {
-    return cy.get(loginpage.input.password).type(password).should('have.value', password);
-});
-
-When('I click on Login button in HRM', () => {
-    return cy.get(loginpage.button.loginButton).click();
+Then('I validate subscriber link on home page', () => {
+    return cy.get(homepage.links.subscriber).should('be.visible');
 });
 
 Then('I click on button with text {string}', (text) => {
     return cy.contains(text, { timeout: 50000 }).click({ force: true });
-});
-
-Then('I validate subscriber link on home page', () => {
-    return cy.get(homepage.links.subscriber).should('be.visible');
 });
 
 And('I select value {string} from Employee name auto suggest dropdown', (text) => {
@@ -49,7 +33,7 @@ And('I click on view details link and validate pop up data', () => {
 
 And('I select date from From Date date picker', () => {
     cy.log('Current Date', Cypress.moment().format('MM/DD/YYYY'))
-    let currentDate = Cypress.moment().add(1,'days').format('DD/MM/YYYY');
+    let currentDate = Cypress.moment().add(3,'days').format('DD/MM/YYYY');
     let futureDay = Math.abs(currentDate.split('/')[0]);
     cy.log(futureDay);
     cy.get(assignleave.datePicker.fromdate)
@@ -61,7 +45,7 @@ And('I select date from From Date date picker', () => {
 
 And('I select date from To Date date picker', () => {
     cy.log('Current Date', Cypress.moment().format('MM/DD/YYYY'))
-    let currentDate = Cypress.moment().add(2,'days').format('DD/MM/YYYY');
+    let currentDate = Cypress.moment().add(5,'days').format('DD/MM/YYYY');
     let futureDay = Math.abs(currentDate.split('/')[0]);
     cy.log(futureDay);
     cy.get(assignleave.datePicker.todate)
@@ -80,9 +64,14 @@ And('I click on Ok button', () => {
     return cy.get('#confirmOkButton').click();        
 });
 
+And('I click on Add button', () => {
+    return cy.get('#btnAdd').click();        
+});
 
+And('I click on tab with text {string}', (text) => {
+    return cy.get('#mainMenuFirstLevelUnorderedList').contains(text).click();        
+});
 
-
-
-
-
+And('I click on button with text {string}', (text) => {
+    return cy.get('div input[type=button]',{timeout:50000}).should('be.visible').contains(text).click();        
+});

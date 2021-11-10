@@ -1,11 +1,13 @@
 Feature: Orange HRM
 
-        Scenario: Validate Assign Leave Functionality
+        Background:
                 Given I navigate to HRM page
-                And I enter username 'Admin' in HRM 
+                And I enter username 'Admin' in HRM
                 And I enter password 'admin123' in HRM
                 And I click on Login button in HRM
                 And I validate subscriber link on home page
+
+        Scenario: Validate Assign Leave Functionality
                 And I click on button with text 'Assign Leave'
                 And I select value 'Jasmine Morgan' from Employee name auto suggest dropdown
                 And I select value 'CAN - Bereavement' from leave type dropdown

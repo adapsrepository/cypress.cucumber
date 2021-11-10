@@ -5,13 +5,13 @@
     "line": 1,
     "id": "orange-hrm",
     "tags": [],
-    "uri": "orangeHRM.feature",
+    "uri": "orangeHRM_assign_leave.feature",
     "elements": [
       {
-        "id": "orange-hrm;create-an-user",
+        "id": "orange-hrm;validate-assign-leave-functionality",
         "keyword": "Scenario",
-        "line": 19,
-        "name": "Create an user",
+        "line": 10,
+        "name": "Validate Assign Leave Functionality",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -22,7 +22,7 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 901000000
+              "duration": 3305000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter username 'Admin' in HRM",
             "result": {
               "status": "passed",
-              "duration": 284000000
+              "duration": 309000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I enter password 'admin123' in HRM",
             "result": {
               "status": "passed",
-              "duration": 315000000
+              "duration": 330000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 1569000000
+              "duration": 3106000000
             }
           },
           {
@@ -62,57 +62,87 @@
             "name": "I validate subscriber link on home page",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 42000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 20,
-            "name": "I click on tab with text 'Admin'",
+            "line": 11,
+            "name": "I click on button with text 'Assign Leave'",
             "result": {
               "status": "passed",
-              "duration": 2810000000
+              "duration": 2482000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 21,
-            "name": "I click on Add button",
+            "line": 12,
+            "name": "I select value 'Jasmine Morgan' from Employee name auto suggest dropdown",
             "result": {
               "status": "passed",
-              "duration": 1192000000
+              "duration": 754000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 22,
-            "name": "I select 'ESS' from User Role dropdown in user management page",
+            "line": 13,
+            "name": "I select value 'CAN - Bereavement' from leave type dropdown",
             "result": {
               "status": "passed",
-              "duration": 309000000
+              "duration": 341000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 23,
-            "name": "I select value 'John Smith' from Employee name auto suggest dropdown in user management page",
+            "line": 14,
+            "name": "I click on view details link and validate pop up data",
             "result": {
               "status": "passed",
-              "duration": 573000000
+              "duration": 1022000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 24,
-            "name": "I enter text 'John' in Username in user management page",
+            "line": 15,
+            "name": "I select date from From Date date picker",
             "result": {
               "status": "passed",
-              "duration": 447000000
+              "duration": 865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I select date from To Date date picker",
+            "result": {
+              "status": "passed",
+              "duration": 878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click on assign button",
+            "result": {
+              "status": "passed",
+              "duration": 503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on Ok button",
+            "result": {
+              "status": "passed",
+              "duration": 2017000000
             }
           }
         ]

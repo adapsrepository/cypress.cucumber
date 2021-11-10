@@ -19,6 +19,10 @@ require('cypress-xpath');
 import "./commands";
 import '@shelex/cypress-allure-plugin';
 Cypress.moment = require('moment');
+// const {
+//   beforeEach,
+//   afterEach,
+// } = require("cypress-cucumber-preprocessor/steps");
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
@@ -30,3 +34,11 @@ Cypress.on("uncaught:exception", (error, runnable) => {
 Cypress.Cookies.defaults({
   preserve: ["session", "loginToken"],
 });
+
+beforeEach(() => {
+  cy.restoreLocalStorage();
+})
+
+afterEach(() => {
+  cy.saveLocalStorage();
+})
