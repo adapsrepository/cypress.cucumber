@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "cy:headless": "cypress run --spec 'cypress/integration/features/**.feature'",
+    "cy:headed": "cypress run --headed --spec 'cypress/integration/features/**.feature'",
     "cy:dashboard": "cypress run --record --key 3551a3cd-a91e-4c08-8fac-89440bbc7b04 --spec 'cypress/integration/features/**.feature'",
-    "cy:run": "cypress run --env allure=true,allureResultsPath=allure-results",
+    "cy:run": "node_modules/.bin/cypress run --headed --spec 'cypress/integration/features/**.feature",
+    "cy:run:allure": "cypress run --env allure=true,allureResultsPath=allure-results",
     "allure:report": "allure generate allure-results --clean -o allure-report",
     "allure:clear": "(if exist allure-report (rmdir /S /Q allure-report)) && (if exist allure-results (rmdir /S /Q allure-results))",
     "pretest": "npm run allure:clear",

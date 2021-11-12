@@ -22,7 +22,7 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 3329000000
+              "duration": 5106000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter username 'Admin' in HRM",
             "result": {
               "status": "passed",
-              "duration": 344000000
+              "duration": 401000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I enter password 'admin123' in HRM",
             "result": {
               "status": "passed",
-              "duration": 332000000
+              "duration": 373000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 4742000000
+              "duration": 5695000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I validate subscriber link on home page",
             "result": {
               "status": "passed",
-              "duration": 41000000
+              "duration": 57000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I click on tab with text 'Admin'",
             "result": {
               "status": "passed",
-              "duration": 2038000000
+              "duration": 2454000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I click on Add button",
             "result": {
               "status": "passed",
-              "duration": 923000000
+              "duration": 1208000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I select 'ESS' from User Role dropdown in user management page",
             "result": {
               "status": "passed",
-              "duration": 3258000000
+              "duration": 3287000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I select value 'John Smith' from Employee name auto suggest dropdown in user management page",
             "result": {
               "status": "passed",
-              "duration": 648000000
+              "duration": 674000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I enter text 'John' in Username in user management page",
             "result": {
               "status": "passed",
-              "duration": 442000000
+              "duration": 708000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I enter text 'welcome123' in password in user management page",
             "result": {
               "status": "passed",
-              "duration": 722000000
+              "duration": 1219000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I enter text 'welcome123' in confirm password in user management page",
             "result": {
               "status": "passed",
-              "duration": 474000000
+              "duration": 552000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "I click on Save button in user management page",
             "result": {
               "status": "passed",
-              "duration": 236000000
+              "duration": 388000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I validate page redirects and system users section is present",
             "result": {
               "status": "passed",
-              "duration": 1791000000
+              "duration": 2410000000
             }
           }
         ]
@@ -172,7 +172,7 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 1070000000
+              "duration": 1906000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "I enter username 'Admin' in HRM",
             "result": {
               "status": "passed",
-              "duration": 257000000
+              "duration": 751000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "I enter password 'admin123' in HRM",
             "result": {
               "status": "passed",
-              "duration": 315000000
+              "duration": 587000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 1537000000
+              "duration": 2053000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "I validate subscriber link on home page",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 40000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "I click on tab with text 'Admin'",
             "result": {
               "status": "passed",
-              "duration": 2509000000
+              "duration": 3821000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "I enter text in search box in system users page",
             "result": {
               "status": "passed",
-              "duration": 377000000
+              "duration": 494000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "I click on search in system users page",
             "result": {
               "status": "passed",
-              "duration": 711000000
+              "duration": 943000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "I validate search results retreive '1' records in system users page",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 42000000
             }
           }
         ]
@@ -272,7 +272,7 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 1126000000
+              "duration": 1440000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "I enter username 'Admin' in HRM",
             "result": {
               "status": "passed",
-              "duration": 222000000
+              "duration": 317000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "I enter password 'admin123' in HRM",
             "result": {
               "status": "passed",
-              "duration": 322000000
+              "duration": 363000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 1587000000
+              "duration": 2049000000
             }
           },
           {
@@ -312,7 +312,7 @@
             "name": "I validate subscriber link on home page",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 20000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "I click on tab with text 'Admin'",
             "result": {
               "status": "passed",
-              "duration": 2338000000
+              "duration": 2565000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "I check the record in system users page",
             "result": {
               "status": "passed",
-              "duration": 218000000
+              "duration": 262000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "I click on Delete button in system users page",
             "result": {
               "status": "passed",
-              "duration": 180000000
+              "duration": 282000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "I click on pop up Ok button in system users page",
             "result": {
               "status": "passed",
-              "duration": 1014000000
+              "duration": 1131000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "I enter text in search box in system users page",
             "result": {
               "status": "passed",
-              "duration": 370000000
+              "duration": 534000000
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "I click on search in system users page",
             "result": {
               "status": "passed",
-              "duration": 716000000
+              "duration": 963000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "I validate search results retreive No Records Found in system users page",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 72000000
             }
           }
         ]

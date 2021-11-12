@@ -8,9 +8,9 @@ Feature: Orange HRM - Recruitment
                 And I validate subscriber link on home page
                 And I click on tab with text 'Recruitment'
 
-        # Scenario: Perform blank search
-        #         When I perform search in recruitment page
-        #         Then I validate search results retreive '10' records in recruitment page
+        Scenario: Perform blank search
+                When I perform search in recruitment page
+                Then I validate search results retreive '10' records in recruitment page
 
         Scenario Outline: Perform Specific search
                 And I select value '<jobtitle>' from job title dropdown in recruitment page
