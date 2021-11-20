@@ -5,7 +5,7 @@
     "line": 1,
     "id": "orange-hrm",
     "tags": [],
-    "uri": "orangeHRM_user_CRUD_operations copy.feature",
+    "uri": "orangeHRM_user_CRUD_operations.feature",
     "elements": [
       {
         "id": "orange-hrm;create-an-user",
@@ -18,197 +18,47 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 12,
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 5106000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "I enter username 'Admin' in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 401000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I enter password 'admin123' in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 373000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I click on Login button in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 5695000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I validate subscriber link on home page",
-            "result": {
-              "status": "passed",
-              "duration": 57000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I click on tab with text 'Admin'",
-            "result": {
-              "status": "passed",
-              "duration": 2454000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "I click on Add button",
-            "result": {
-              "status": "passed",
-              "duration": 1208000000
+              "duration": 3175000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "I select 'ESS' from User Role dropdown in user management page",
+            "name": "I enter username 'Admin' in HRM",
             "result": {
               "status": "passed",
-              "duration": 3287000000
+              "duration": 327000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "I select value 'John Smith' from Employee name auto suggest dropdown in user management page",
+            "name": "I enter password 'admin123' in HRM",
             "result": {
               "status": "passed",
-              "duration": 674000000
+              "duration": 339000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "I enter text 'John' in Username in user management page",
+            "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 708000000
+              "duration": 5213000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "I enter text 'welcome123' in password in user management page",
-            "result": {
-              "status": "passed",
-              "duration": 1219000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "I enter text 'welcome123' in confirm password in user management page",
-            "result": {
-              "status": "passed",
-              "duration": 552000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "I click on Save button in user management page",
-            "result": {
-              "status": "passed",
-              "duration": 388000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "I validate page redirects and system users section is present",
-            "result": {
-              "status": "passed",
-              "duration": 2410000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "orange-hrm;search-the-user-created",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "Search the user created",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "I navigate to HRM page",
-            "result": {
-              "status": "passed",
-              "duration": 1906000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "I enter username 'Admin' in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 751000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I enter password 'admin123' in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 587000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I click on Login button in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 2053000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
             "name": "I validate subscriber link on home page",
             "result": {
               "status": "passed",
@@ -218,37 +68,147 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
+            "line": 17,
             "name": "I click on tab with text 'Admin'",
             "result": {
               "status": "passed",
-              "duration": 3821000000
+              "duration": 2153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on Add button",
+            "result": {
+              "status": "passed",
+              "duration": 1201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I select 'ESS' from User Role dropdown in user management page",
+            "result": {
+              "status": "passed",
+              "duration": 3305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I select value 'John Smith' from Employee name auto suggest dropdown in user management page",
+            "result": {
+              "status": "passed",
+              "duration": 736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I enter text 'John' in Username in user management page",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 22,
-            "name": "I enter text in search box in system users page",
+            "name": "I enter text 'welcome123' in password in user management page",
             "result": {
               "status": "passed",
-              "duration": 494000000
+              "duration": 1157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I enter text 'welcome123' in confirm password in user management page",
+            "result": {
+              "status": "passed",
+              "duration": 1721000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 23,
-            "name": "I click on search in system users page",
+            "line": 24,
+            "name": "I click on Save button in user management page",
             "result": {
               "status": "passed",
-              "duration": 943000000
+              "duration": 372000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 24,
+            "line": 25,
+            "name": "I validate page redirects and system users section is present",
+            "result": {
+              "status": "passed",
+              "duration": 2066000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "orange-hrm;search-the-user-created",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Search the user created",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I navigate to HRM page",
+            "result": {
+              "status": "passed",
+              "duration": 2327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click on tab with text 'Admin'",
+            "result": {
+              "status": "passed",
+              "duration": 2696000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I enter text in search box in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click on search in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 1082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
             "name": "I validate search results retreive '1' records in system users page",
             "result": {
               "status": "passed",
@@ -260,7 +220,7 @@
       {
         "id": "orange-hrm;delete-the-record-created",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 34,
         "name": "Delete the record created",
         "tags": [],
         "type": "scenario",
@@ -268,121 +228,111 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 35,
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 1440000000
+              "duration": 1935000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 5,
-            "name": "I enter username 'Admin' in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 317000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I enter password 'admin123' in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 363000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I click on Login button in HRM",
-            "result": {
-              "status": "passed",
-              "duration": 2049000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I validate subscriber link on home page",
-            "result": {
-              "status": "passed",
-              "duration": 20000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
+            "line": 36,
             "name": "I click on tab with text 'Admin'",
             "result": {
               "status": "passed",
-              "duration": 2565000000
+              "duration": 2537000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 27,
-            "name": "I check the record in system users page",
-            "result": {
-              "status": "passed",
-              "duration": 262000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "I click on Delete button in system users page",
-            "result": {
-              "status": "passed",
-              "duration": 282000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 29,
-            "name": "I click on pop up Ok button in system users page",
-            "result": {
-              "status": "passed",
-              "duration": 1131000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 30,
+            "line": 37,
             "name": "I enter text in search box in system users page",
             "result": {
               "status": "passed",
-              "duration": 534000000
+              "duration": 425000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 31,
+            "line": 38,
             "name": "I click on search in system users page",
             "result": {
               "status": "passed",
-              "duration": 963000000
+              "duration": 1196000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 32,
+            "line": 39,
+            "name": "I validate search results retreive '1' records in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I check the record in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I click on Delete button in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I click on pop up Ok button in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 1461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I enter text in search box in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I click on search in system users page",
+            "result": {
+              "status": "passed",
+              "duration": 987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
             "name": "I validate search results retreive No Records Found in system users page",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 24000000
             }
           }
         ]

@@ -1,13 +1,5 @@
 Feature: Orange HRM
 
-        # Background:
-        #         Given I navigate to HRM page
-        #         And I enter username 'Admin' in HRM
-        #         And I enter password 'admin123' in HRM
-        #         And I click on Login button in HRM
-        #         And I validate subscriber link on home page
-        #         And I click on tab with text 'Admin'
-
         Scenario: Create an user
                 Given I navigate to HRM page
                 And I enter username 'Admin' in HRM

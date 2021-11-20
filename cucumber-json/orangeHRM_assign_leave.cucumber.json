@@ -5,7 +5,7 @@
     "line": 1,
     "id": "orange-hrm---assign-leave-functionality",
     "tags": [],
-    "uri": "orangeHRM_timesheets.feature",
+    "uri": "orangeHRM_assign_leave.feature",
     "elements": [
       {
         "id": "orange-hrm---assign-leave-functionality;validate-assign-leave-functionality",
@@ -22,7 +22,7 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 1041000000
+              "duration": 3500000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter username 'Admin' in HRM",
             "result": {
               "status": "passed",
-              "duration": 295000000
+              "duration": 340000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I enter password 'admin123' in HRM",
             "result": {
               "status": "passed",
-              "duration": 374000000
+              "duration": 311000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 2022000000
+              "duration": 5176000000
             }
           },
           {
@@ -62,87 +62,77 @@
             "name": "I validate subscriber link on home page",
             "result": {
               "status": "passed",
-              "duration": 45000000
+              "duration": 32000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "I click on Timesheets button",
+            "name": "I click on button with text 'Assign Leave'",
             "result": {
               "status": "passed",
-              "duration": 2906000000
+              "duration": 2049000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "I select value 'Ruchi Parikh' from Employee name auto suggest dropdown in Timesheets page",
+            "name": "I select value 'Jasmine Morgan' from Employee name auto suggest dropdown",
             "result": {
               "status": "passed",
-              "duration": 685000000
+              "duration": 693000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "I click on view button in Timesheets page",
+            "name": "I select value 'CAN - Bereavement' from leave type dropdown",
             "result": {
               "status": "passed",
-              "duration": 1732000000
+              "duration": 295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on view details link and validate pop up data",
+            "result": {
+              "status": "passed",
+              "duration": 930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I select date from From Date date picker",
+            "result": {
+              "status": "passed",
+              "duration": 750000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "I click on edit button in Timesheets page",
+            "name": "I select date from To Date date picker",
             "result": {
               "status": "passed",
-              "duration": 1323000000
+              "duration": 711000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 17,
-            "name": "I select value 'Global Corp and Co - Global Software phase - 1' from Project name auto suggest dropdown in Timesheets page",
+            "name": "I click on assign button",
             "result": {
               "status": "passed",
-              "duration": 4368000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "I select value 'Bug Fixes' from activity name dropdown in Timesheets page",
-            "result": {
-              "status": "passed",
-              "duration": 3393000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "I enter time in timesheet in Timesheets page",
-            "result": {
-              "status": "passed",
-              "duration": 1834000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "I click on save button in Timesheets page",
-            "result": {
-              "status": "passed",
-              "duration": 1679000000
+              "duration": 475000000
             }
           }
         ]
